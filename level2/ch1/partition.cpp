@@ -18,8 +18,7 @@ int partition(int q[], int l, int r)
     {
         if (q[j] < pivot) 
         {
-            swap(q[i], q[j]);
-            i ++;
+            swap(q[++ i], q[j]);
         }
     }
     swap(q[l], q[i]);
